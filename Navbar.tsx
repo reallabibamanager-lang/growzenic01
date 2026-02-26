@@ -192,3 +192,4 @@ export const navbar: React.FC = () => {
     </section>
   );
 };
+export default Navbar;
