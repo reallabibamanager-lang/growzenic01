@@ -71,3 +71,4 @@ export const Philosophy: React.FC = () => {
     </section>
   );
 };
+export default Process;
