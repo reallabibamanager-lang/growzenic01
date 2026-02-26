@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Volume2, VolumeX } from 'lucide-react';
 // Yahan humne aapki banayi hui naya file ko sahi path se link kiya hai
-import { fadeInUp } from './utils/animations'; 
+import { fadeInUp } from './utils/animations';
 
 const SoundControl = () => {
   const [isMuted, setIsMuted] = useState(true);
