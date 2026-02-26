@@ -1,8 +1,8 @@
 import React, { useEffect, useRef } from 'react';
 import { motion, useScroll, useTransform, useInView, animate } from 'framer-motion';
-import { Button } from './ui/Button';
+import { Button } from './Button';
 import { ArrowRight, Play } from 'lucide-react';
-import { fadeInUp, staggerContainer } from '../utils/animations';
+import { fadeInUp, staggerContainer } from './utils/animations';
 
 const Counter = ({ value, suffix = '' }: { value: number, suffix?: string }) => {
   const ref = useRef<HTMLSpanElement>(null);
