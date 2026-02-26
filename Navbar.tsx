@@ -32,7 +32,7 @@ const Counter = ({ value, suffix = '' }: { value: number, suffix?: string }) => 
   return <span ref={ref}>0{suffix}</span>;
 };
 
-export const navbar: React.FC = () => {
+export const Navbar: React.FC = () => {
   const { scrollY } = useScroll();
   const y1 = useTransform(scrollY, [0, 500], [0, 200]);
   const y2 = useTransform(scrollY, [0, 500], [0, -150]);
