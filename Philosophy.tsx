@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { Button } from './ui/Button';
+import { Button } from './Button';
 
 export const Navbar: React.FC = () => {
   const [scrolled, setScrolled] = useState(false);
